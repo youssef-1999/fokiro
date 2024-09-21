@@ -1,0 +1,884 @@
+*
+{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+#hero_section
+{
+    height: 100vh;
+    background-image: url('../images/hero\ img.jpg');
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    overflow: hidden;
+}
+.navbar-dark .custom_logo 
+{
+    color:   rgb(255, 48, 91);
+
+}
+.navbar-dark .navbar-nav .nav-item .nav-link:hover
+{
+    color:   rgb(255, 48, 91);
+}
+ .hero
+{
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.3);
+    
+}
+#hero_section .hero .container h1 
+{
+    color:   rgb(255, 48, 91);
+
+}
+
+ .section .hero_section .hero .animated-text{
+    font-size: 34px;
+    font-weight: 600;
+    min-width: 280px;
+}
+
+.section .hero_section .hero .animated-text span{
+    position: relative;
+}
+
+.section .hero_section .hero .animated-text span::before{
+    content: "Developer";
+    color:   rgb(255, 48, 91);
+    animation: words 1s infinite;
+}
+
+.section .hero_section .hero .animated-text span::after{
+    content: "";
+    position: absolute;
+    width: calc(100% + 8px);
+    height: 100%;
+    border-right: 2px solid rgb(255, 48, 91); ;
+    right: -8px;
+    animation: cursor .8s infinite, typing 1s steps(14) infinite;
+}
+
+@keyframes cursor {
+    to{
+        border-right: 2px solid #ff7f5000;
+    }
+}
+
+@keyframes words {
+   
+    0%,10%{
+        content: "Designer";
+    }
+    
+}
+
+
+
+
+
+.portflio .container .portflio_section .text_about h2,
+.portflio .container .portflio_section .text_about h2 span
+{
+    font-weight: bold;
+    font-family: "Source Sans Pro", sans-serif;
+    position: relative;
+    font-size: 1.8rem;
+}
+.portflio .container .portflio_section .text_about h2 span
+{
+    color:   rgb(255, 48, 91);
+}
+
+
+
+
+.section  .hero h1
+{
+    text-transform: uppercase;
+    color:   rgb(255, 48, 91);
+    font-family: "Source Sans Pro", sans-serif;
+    font-size: 4rem;
+}
+
+/* /////////////////About////////////////////////// */
+
+
+.portflio .container 
+{
+    margin: auto;
+    width: 70%;
+    position: relative;
+}
+
+
+
+
+
+ .portflio .container .image_about  .image_caption i:hover
+{
+    color:   rgb(255, 48, 91);
+} 
+
+#about h1::before
+{
+    position: absolute;
+    content: "I";
+    color:   rgb(255, 48, 91);
+    left: -1%;
+
+}
+
+
+#about .image_caption .icons
+{
+    position: absolute;
+    top: 50%;
+    left: 30%;
+}
+#about .container .image_caption
+{
+    background-color: rgba(0, 0, 0, 0.3);
+    position: absolute;
+    top: 100%;
+    left: 0;
+    height: 100%;
+    bottom: 0;
+    right: 0;
+    overflow: hidden;
+    opacity: 0;
+    transition: all 0.5s ease;
+}
+#about .test 
+{
+    overflow: hidden;
+}
+#about .test:hover .image_caption {
+    opacity: 1;
+    top: 0;
+}
+
+
+
+.d-flex {
+    display: flex;
+    justify-content: space-around; /* Centering the icons with space around them */
+    align-items: center;
+}
+
+.iconing {
+    font-size: 1rem; /* Adjust the size of the icons */
+    color: white; /* Icon color */
+    padding: 0.5rem; /* Spacing around the icons */
+}
+
+.portflio .container .portflio_section .text_about p
+{
+    width: 50rem;
+    font-size: 1.2rem;
+    text-align: left;
+    font-weight: 100;
+    border-bottom: 1px dashed black;
+    padding: 1rem 0;
+}
+
+
+
+
+
+/* /////////////////////Services////////////////////////// */
+
+ .services
+{
+    width: 100%;
+    background-color: #f1f1f1;
+    
+}
+
+ .services  h1
+{
+    font-weight: bolder;
+    text-transform: capitalize;
+    font-family: "Source Sans Pro", sans-serif;
+    text-align: center;
+    font-size: 3rem;
+    margin-top:2rem ;
+
+}
+ .services .container  .line1
+{
+    margin: auto;
+    width: 55px;
+    height: 1px;
+    background-color: rgb(255, 48, 91);
+}
+ .services .container .med_line
+{
+    
+    margin: auto;
+    width: 130px;
+    height: 1px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    background-color: rgb(255, 48, 91);
+}
+.services .container
+{
+    margin: auto;
+    width: 90%;
+}
+ .services .container .all_services  .single_service
+{
+    display: inline-block;
+    padding: 1.5rem;
+    margin-top: 1rem;
+    
+}
+.services .container .all_services .single_service .inner_service
+{
+    text-align: center;
+    padding: 40px 15px;
+    transition: 1s all ease-in;
+
+
+}
+.services .container .all_services  .single_service .inner_service:hover
+{
+    background-color: white;
+    box-shadow: 8px 8px 35px 3px rgba(0,0,0,0.75) ;
+    transform:1s scale(1.5);
+
+
+}
+ .services .container .all_services .single_service .inner_service i
+{
+    text-align: center;
+    padding: 0px 0px 20px;
+    font-size: 2rem;
+    color: rgb(255, 48, 91);
+}
+ .services .container .all_services .single_service .inner_service h3
+{
+    font-family: "Source Sans Pro", sans-serif;
+    text-align: center;
+    margin: 0px 0px 15px;
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+.services .container .all_services  .single_service .inner_service p
+{
+    text-align: center
+}
+
+/* //////////////end of serices////////////// */
+.Our_Portflio
+{
+    background-color: #ffff;
+    width: 100%;
+}
+.Our_Portflio .container
+{
+    padding-top: 10px;
+    width: 90%;
+    margin: auto;
+    padding: 70px 0 24px;
+
+
+}
+.Our_Portflio .container h1
+{
+    font-weight: bolder;
+    text-transform: capitalize;
+    font-family: "Source Sans Pro", sans-serif;
+    text-align: center;
+    font-size: 3rem;
+    margin-top:0.5rem ;
+}
+.Our_Portflio .container  .line1
+{
+    margin: auto;
+    width: 55px;
+    height: 1px;
+    background-color: rgb(255, 48, 91);
+}
+ .Our_Portflio .container .med_line
+{
+    
+    margin: auto;
+    width: 130px;
+    height: 1px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    background-color: rgb(255, 48, 91);
+}
+.Our_Portflio .container .filtering_btn
+{
+    text-align: center;
+    margin-top: 50px;
+}
+.Our_Portflio .container .filtering_btn button
+{
+    background-color: white;
+    border-radius: 5px;
+    padding: 1rem 1rem;
+    border: none;
+    color: black;
+    text-transform: uppercase;
+    font-size: 1.1rem;
+    cursor: pointer;
+}
+.Our_Portflio .container .filtering_btn button:hover
+{
+    color: rgb(255, 48, 91);
+
+}
+.Our_Portflio .container .images
+{
+   text-align: center;
+   overflow: hidden;
+}
+.Our_Portflio .container .images .image .image_caption
+{
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.3);
+    overflow: hidden;
+    width: 100%;
+    height: 0;
+    text-align: center;
+    transition: 1s all ;
+}
+.Our_Portflio .container .images .image .image_caption i
+{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    color: rgb(255, 48, 91);
+}
+.Our_Portflio .container .images .image:hover .image_caption
+{
+    opacity: 1;
+    height: 100%;
+}
+
+.Our_Portflio .container .images .image
+{
+    display: inline-block;
+
+   position: relative;
+
+}
+.Our_Portflio .container .images .image img
+{
+    width: 100%;
+    padding: 1px;
+}
+/* //////////////ending///////////////////// */
+.middle_section
+{
+    width: 100%;
+    background-color: #f1f1f1;
+
+
+}
+
+.middle_section .container
+{
+    width: 90%;
+    margin: auto;
+}
+.middle_section .container .test
+{
+    margin: auto;
+    padding: 10px;
+}
+.middle_section .container .test .inner_test
+{
+    padding: 5px;
+    text-align: center;
+    font-size: 1.5rem;
+}
+.middle_section .container .test .inner_test p
+{
+    font-weight: bolder;
+}
+.middle_section .container .test .inner_test h6
+{
+    text-transform: capitalize;
+
+}
+.middle_section .container .test .inner_test i
+{
+    color: rgb(255, 48, 91);
+
+}
+
+/* //////////////////ending//////////////// */
+/* .feedback
+{
+    width: 100%;
+   background: white;
+    
+}
+.feedback .container
+{
+    width: 90%;
+   position: relative;
+   margin: auto;
+   overflow: hidden;
+   height: 100%;
+}
+.feedback .container h1
+{
+    font-weight: bolder;
+    text-transform: capitalize;
+    font-family: "Source Sans Pro", sans-serif;
+    text-align: center;
+    font-size: 3rem;
+    margin-top:2.5rem ;
+    margin-bottom: 1rem;
+}
+.feedback .container  .line1
+{
+    margin: auto;
+    width: 55px;
+    height: 1px;
+    background-color: rgb(255, 48, 91);
+}
+ .feedback .container .med_line
+{
+    
+    margin: auto;
+    width: 130px;
+    height: 1px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    background-color: rgb(255, 48, 91);
+}
+.feedback .container .box_feedback
+{
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: #f1f1f1;
+    margin-bottom: 10px;
+    padding: 1rem;
+    border-radius: 10px;
+}
+
+.feedback .container .box_feedback .box_feedback_image
+{
+    width: 100%;
+    text-align: left;
+    height: 100%;
+    text-align: center;
+    position: relative;
+
+}
+.feedback .container .box_feedback .box_feedback_image .corner {
+    
+      top: -15px;
+      left: -15px;
+      border-top: 190px solid rgb(255, 48, 91);
+      border-bottom: 280px solid transparent;
+      border-right: 150px solid transparent;
+      position: absolute;
+  }
+.feedback .container .box_feedback .box_feedback_image .corner img
+{
+    width: 100%;
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    top: -140px;
+    left: 10px;
+}
+.feedback .container .box_feedback .box_feedback_text
+{
+    width: 80%;
+    float: left;
+    height: 100%;
+    background-color: red;
+    
+}
+.feedback .container .box_feedback .box_feedback_text p
+{
+    padding: 5px 0px;
+}
+.feedback .container .box_feedback .box_feedback_text h1
+{
+    text-align: left;
+    padding: 5px 0px;
+
+}
+.feedback .container .box_feedback .box_feedback_text .stars
+{
+    border-color: orange;
+}
+.feedback .container .box_feedback .box_feedback_text .stars .checked
+{
+    color: orange;
+} */
+ /* General Styles */
+
+
+.feedback {
+    padding: 2rem;
+    background-color: #f5f5f5;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.feedback .container  .line1
+{
+    margin: auto;
+    width: 55px;
+    height: 1px;
+    background-color: rgb(255, 48, 91);
+}
+ .feedback .container .med_line
+{
+    
+    margin: auto;
+    width: 130px;
+    height: 1px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    background-color: rgb(255, 48, 91);
+}
+
+.box_feedback {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(255, 48, 91);;
+    color: #fff;
+    border-radius: 10px;
+    padding: 1rem;
+    margin-top: 2rem;
+}
+
+.box_feedback_image img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+.box_feedback_text {
+    text-align: left;
+    margin-left: 2rem;
+}
+
+.stars .checked {
+    color: gold;
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+    .box_feedback {
+        flex-direction: column;
+    }
+
+    .box_feedback_text {
+        margin-left: 0;
+        margin-top: 1rem;
+    }
+}
+
+@media (max-width: 400px) {
+    .feedback .container .box_feedback .box_feedback_image .corner {
+        top: -15px;
+        left: -15px;
+        position: absolute;
+    }
+
+    .feedback .container .box_feedback {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        padding: 1rem;
+        border-radius: 50px;
+    }
+}
+
+
+/* /////////////ending///////////////// */
+.blog
+{
+    width: 100%;
+   background: #f1f1f1;
+    
+}
+.blog .container
+{
+    width: 90%;
+    margin: auto;
+    
+}
+.blog .container .blog_container
+{
+   
+   
+    background-color: white;
+    
+}
+.blog .container .blog_container .inner_blog
+{
+    padding: 10px;
+}
+.blog .container h1
+{
+    font-weight: bolder;
+    text-transform: capitalize;
+    font-family: "Source Sans Pro", sans-serif;
+    text-align: center;
+    font-size: 3rem;
+    padding-top:5% ;
+    margin-bottom: 1rem;
+}
+.blog .container  .line1
+{
+    margin: auto;
+    width: 55px;
+    height: 1px;
+    background-color: rgb(255, 48, 91);
+}
+ .blog .container .med_line
+{
+    
+    margin: auto;
+    width: 130px;
+    height: 1px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    background-color: rgb(255, 48, 91);
+}
+.blog .container .blog_container .blog_image img
+{
+    width: 100%;
+}
+.blog .container .blog_container .blog_image video
+{
+    width: 100%;
+}
+.blog .container .blog_container .inner_blog  .hover_over_text
+{
+    font-weight: bold;
+    font-size: 1.3rem;
+}
+.blog .container .blog_container .inner_blog .hover_over_text:hover
+{
+    color: rgb(255, 48, 91);
+    cursor: pointer;
+
+}
+.blog .container .blog_container .inner_blog p
+{
+    padding: 10px 0px;
+}
+.blog .container .blog_container .inner_blog button
+{
+    border: none;
+    background-color: transparent;
+    font-size: 1rem;
+    text-transform: capitalize;
+    cursor: pointer;
+    
+}
+
+.blog .container .blog_container .inner_blog button i
+{
+    margin-left: 5px;
+}
+.blog .container .blog_container .inner_blog button:hover
+{
+    color: rgb(255, 48, 91);
+
+}
+
+/* ////////////////ending blog////////////////// */
+
+.contact
+{
+    width: 100%;
+   background: white;
+margin-bottom: 20px;    
+}
+.contact .container
+{
+    width: 90%;
+    margin: auto;
+    
+}
+
+.contact .container  .line1
+{
+    margin: auto;
+    width: 55px;
+    height: 1px;
+    background-color: rgb(255, 48, 91);
+}
+ .contact .container .med_line
+{
+    
+    margin: auto;
+    width: 130px;
+    height: 1px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    background-color: rgb(255, 48, 91);
+}
+
+.contact .container h1
+{
+    font-weight: bolder;
+    text-transform: capitalize;
+    font-family: "Source Sans Pro", sans-serif;
+    text-align: center;
+    font-size: 3rem;
+    padding-top:5% ;
+    margin-bottom: 1rem;
+}
+
+
+.contact .container form
+{
+    display: inline-block;
+    padding: 2px;
+    margin-top: 20px;
+    height: 50vh;
+    width: 100%;
+
+    
+}
+
+.contact .container form .name_email input 
+{
+    margin: 5px;
+    float: left;
+    width: 48%;
+    display: block;
+    padding: 10px 5px;
+    border-radius: 5px;
+    border: 1px solid black;
+    border-color: #a94442;
+    box-shadow: inset 0 1px 1px rgba(0,0,0,.075);
+}
+/* Responsive Styles */
+@media (max-width: 768px) {
+    .contact .container form .name_email input  {
+        width: 100%;
+    }
+    .contact .container form .control_form input 
+    {
+        width: 100%;
+    }
+
+   
+}
+
+@media (max-width: 400px) {
+    .contact .container form .name_email input  {
+        width: 100%;
+    }
+    .contact .container form .control_form input 
+    {
+        width: 100%;
+    }
+
+   
+}
+.contact .container form .control_form input 
+{
+    width: 97%;
+    margin: 25px 25px 0px 5px ;
+    display: block;
+    padding: 10px 5px;
+    border-radius: 5px;
+    border: 1px solid black;
+    border-color: #a94442;
+    box-shadow: inset 0 1px 1px rgba(0,0,0,.075);
+    outline: none;
+
+}
+.contact .container form .control_form textarea
+{
+    width: 97%;
+    margin: 10px 15px 0px 5px ;
+    display: block;
+    padding: 10px 5px;
+    border-radius: 5px;
+    border-color: #a94442;
+    box-shadow: inset 0 1px 1px rgba(0,0,0,.075);
+    outline: none;
+
+}
+
+.contact .container form .action button
+{
+    background-color: rgb(255, 48, 91);
+    color: white;
+    background-color: rgb(255, 48, 91);
+    border-radius: 5px;
+    padding: 0.5rem 0.5rem;
+    text-align: center;
+    display: inline-block;
+    border: none;
+    font-size: 0.9rem;
+    margin: 2.5rem 0rem 0rem 5px;
+    text-transform: uppercase;
+    height: 40px;
+    cursor: not-allowed;
+
+}
+.contact .container form .action button:hover
+{
+    background-color: red;
+}
+footer
+{
+    width: 100%;
+    background-color: #333333 ;
+    color: #fff;
+    text-align: center;
+    height: 20vh;
+}
+footer .container
+{
+    margin: auto;
+    height: 100%;
+    padding-top: 50px;
+}
+
+footer .container .links
+{
+    display: inline;
+    font-size: 1.3rem;
+    margin-right: 1rem;
+}
+footer .container .links i:hover
+{
+    color: #a94442;
+}
+footer .container p span a 
+{
+    color: rgb(255, 48, 91);
+    font: 1em sans-serif;
+}
+footer .container p
+{
+    margin-top: 15px;
+
+}
